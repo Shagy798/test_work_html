@@ -1,0 +1,68 @@
+.container{
+background-color: F5F8FA;
+height: auto;
+max-width: auto;
+margin: 0 auto;
+padding: 0 15px;
+}
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.card_body{
+    padding: 40px;
+}
+.card_title{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.card_desc{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 40px;
+}
+.headder{
+    
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+.head{
+    background-color: 467ADF;
+}
+.main{
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+}
+.buton{
+    margin-top: 40px;
+    margin-bottom: 160px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.strelochki{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr)
+}
+
+.man{
+    margin-top: 80;
+    margin-bottom: 120;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+
+}
+.man_card{
+    width: 400;
+}
+.man_card2{
+    width: 400;
+}
